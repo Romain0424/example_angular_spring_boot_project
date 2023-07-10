@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Jul 10 20:45:19 CEST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0189-411f-5465-000001ab5890 
+on database directory memory:D:\garageApp\803ed520-d4b1-40de-aad9-39756550d2b3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/Romain/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=17.0.7+7-LTS
+user.dir=D:\garageApp
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
