@@ -2,6 +2,7 @@ package io.tutorial.spring.garageApp.controller;
 
 import io.tutorial.spring.garageApp.model.Car;
 import io.tutorial.spring.garageApp.service.GarageService;
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,6 +24,12 @@ public class GarageController
     public Car getCar(){
         Car mycar = new Car(0,"Model x", "Tesla", 2020, Car.Color.RED);
         return mycar;
+    }
+
+    @PostConstruct
+    private void postConstruct() {
+        Car mycar = new Car(0,"Twingo", "Renault", 2002, Car.Color.RED);
+        garageService.addCar(mycar);
     }
 
     @RequestMapping("cars")
